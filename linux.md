@@ -1,4 +1,4 @@
-1. # **Các file và thư mục trong [Unix/Linux**](https://quantrimang.com/unix-va-linux "Tìm hiểu Unix và Linux")**
+1. # **Các file và thư mục trong Unix/Linux**
 Các lệnh này cho phép bạn tạo các thư mục và điều khiển các file.
 
 |**Lệnh**|**Miêu tả**|
@@ -22,7 +22,8 @@ Các lệnh này cho phép bạn tạo các thư mục và điều khiển các 
 |rmdir|Xóa một thư mục đang tồn tại|
 |tail|In một vài dòng cuối của thư mục|
 |touch|Cập nhật truy cập và thời gian chỉnh sửa của một file|
-1. # **Thao tác dữ liệu trong Unix/Linux**
+
+2. # **Thao tác dữ liệu trong Unix/Linux**
 Các nội dung của file có thể dược so sánh và thay đổi với các lệnh sau:
 
 |**Lệnh**|**Miêu tả**|
@@ -51,7 +52,8 @@ Các nội dung của file có thể dược so sánh và thay đổi với các
 |ex, edit|Bộ soạn dòng|
 |emacs|GNU dự án Emacs|
 |emacs|GNU dự án Emacs|
-1. # **Nén file trong Unix/Linux**
+
+3. # **Nén file trong Unix/Linux**
 Các file có thể được nén để tiết kiệm không gian. Các file bị nén có thể được tạo và thực hành với các lệnh dưới.
 
 |**Lệnh**|**Miêu tả**|
@@ -65,7 +67,8 @@ Các file có thể được nén để tiết kiệm không gian. Các file b�
 |zcmp|So sánh các file bị nén|
 |zdiff|So sánh các file bị nén|
 |zmore|Lọc file để quan sát crt của các văn bản bị nén|
-1. # **Nhận thông tin trong Unix/Linux**
+
+4. # **Nhận thông tin trong Unix/Linux**
 Các tài liệu tra cứu và các sổ tay Unix đa dạng có sẵn trên mạng trực tuyến. Các lệnh shell sau sẽ cung cấp thông tin cho bạn:
 
 |**Lệnh**|**Miêu tả**|
@@ -75,7 +78,8 @@ Các tài liệu tra cứu và các sổ tay Unix đa dạng có sẵn trên m�
 |man|Hiển thị sổ tay các trang trực tuyến|
 |whatis|Tìm kiếm dữ liệu whatis cho các từ đầy đủ.|
 |yelp|Bộ thẩm tra sự giúp đỡ GNOME|
-1. # **Giao tiếp mạng hệ thống trong Unix/Linux**
+
+5. # **Giao tiếp mạng hệ thống trong Unix/Linux**
 Các lệnh sau được sử dụng để gửi và nhận các file từ một host nội bộ tới một host điều khiển từ xa trên Thế giới.
 
 |**Lệnh**|**Miêu tả**|
@@ -89,8 +93,10 @@ Các lệnh sau được sử dụng để gửi và nhận các file từ một
 |ssh|Bảo an shell terminal hoặc sự kết nối lệnh|
 |scp|Bảo an shell từ việc sao chép file từ xa|
 |sftp|Bảo an shell từ gửi file tới chương trình|
-Một trong số các lệnh trên có thể bị hạn chế tại máy tính của bạn vì các lý do bảo mật.
-1. # **Các thông báo giữa các người sử dụng trong Unix/Linux**
+
+*Một trong số các lệnh trên có thể bị hạn chế tại máy tính của bạn vì các lý do bảo mật.*
+
+6. # **Các thông báo giữa các người sử dụng trong Unix/Linux**
 Hệ thống Unix hỗ trợ các thông báo hiển thị trên màn hình tới người sử dụng khác và gửi mail tự động trên toàn Thế giới.
 
 |**Lệnh**|**Miêu tả**|
@@ -102,7 +108,8 @@ Hệ thống Unix hỗ trợ các thông báo hiển thị trên màn hình tớ
 |pine|Tiện ích vdu-base mail|
 |talk|Nói chuyện với người sử dụng khác|
 |write|Ghi thông báo tới người sử dụng khác|
-1. # **Các chương trình tiện ích trong Unix/Linux**
+
+7. # **Các chương trình tiện ích trong Unix/Linux**
 Bảng dưới là các công cụ và ngôn ngữ mà có sẵn dựa trên những gì bạn cài đặt trên hệ thống Unix của bạn:
 
 |**Lệnh**|**Miêu tả**|
@@ -132,7 +139,8 @@ Bảng dưới là các công cụ và ngôn ngữ mà có sẵn dựa trên nh�
 |sqlplus|Chạy bộ phiên dịch Oracle SQL|
 |sqlldr|Chạy bộ tải dữ liệu Oracle SQL|
 |mysql|Chạy bộ phiên dịch mysql SQL|
-1. # **Các lệnh hỗn hợp trong Unix/Linux**
+
+8. # **Các lệnh hỗn hợp trong Unix/Linux**
 Dưới đây là các lệnh và thông tin thay đổi về hệ thống:
 
 |**Lệnh**|**Miêu tả**|
@@ -192,6 +200,7 @@ Dưới đây là bảng liệt kê các biến đặc biệt mà bạn có th�
 |**$?**|Trạng thái thoát ra của lệnh trước được chạy.|
 |**$$**|Số tiến trình của shell hiện tại. Đối với Shell script, đây là số Process ID mà chúng đang chạy.|
 |**$!**|Số tiến trình của lệnh background trước.|
+
 Dưới đây là bảng một số siêu ký tự phải biết để kết nối lệnh và mở rộng với tên, mô tả và ví dụ của chúng để thực hành:
 
 |**Tên**|**Sự miêu tả**|**Thí dụ**|
@@ -206,8 +215,8 @@ Dưới đây là bảng một số siêu ký tự phải biết để kết n�
 |Chuyển hướng rỗng (2>)|Hướng thông báo lỗi chuẩn đến tệp / dev / null|your\_command 2> / dev / null|
 |Circumflex (^)|Khớp với bất kỳ mẫu nào bắt đầu bằng biểu thức theo sau là ^|cd / etc / ssh; ls | grep ^ s|
 
-1. # **Stdin – Stdout – Stderr và pipes trong shell script**
-1. **Stdin – Stdout – Stderr và pipes**
+9. # **Stdin – Stdout – Stderr và pipes trong shell script**
+a. **Stdin – Stdout – Stderr và pipes**
 
 Bash shell trong Linux có 3 dòng dữ liệu (stream) cơ bản đó là **stdin (0)**,**stdout (1)** và **stderr (2)**.
 
@@ -215,14 +224,14 @@ Bash shell trong Linux có 3 dòng dữ liệu (stream) cơ bản đó là **st
 - **stdout (1)**: Hiển thị **kết quả** các lệnh lên terminal (hoặc màn hình) cho chúng ta thấy.
 - **stderr (2)**: Hiển thị ra các **lỗi** trong quá trình thực hiện một lệnh hoặc một công việc nào đó.
 - **pipes** trong Linux được ký hiệu là dấu gạch đứng “**|**“. Đường ống dẫn này cho phép chúng ta lấy kết quả của lệnh phía trước nó làm input cho lệnh phía sau nó
-1. **Một số ký hiệu dùng để chuyển hướng input/output**
+b. **Một số ký hiệu dùng để chuyển hướng input/output**
 - < file : có nghĩa là mở một tệp tin đọc vào thay cho stdin.
 - << token : sử dụng dòng dữ liệu nhập hiện tại cho stdin cho đến khi gặp mã nhận dạng (token).
 - > file : có nghĩa là ở một tệp tin để ghi, ghi đè nếu nó đã có dữ liệu, tệp tin này nhận dữ liệu từ stdout.
 - >> file : cũng giống như trên nhưng dữ liệu sẽ được nối thêm vào chứ không ghi đè lên.
 - n>&m : có nghĩa là chuyển hướng FD n đặt vào FD m. Ví dụ, 2>&1 nghĩa là sẽ dùng để chuyển hướng stderr sang stdout.
 
-1. # **Các toán tử số học trong [Unix/Linux**](https://quantrimang.com/unix-va-linux "Tìm hiểu Unix và Linux")**
+10. # **Các toán tử số học trong [Unix/Linux**](https://quantrimang.com/unix-va-linux "Tìm hiểu Unix và Linux")**
 Các toán tử số học sau được hỗ trợ bởi Bourne shell.
 
 Giả sử biến a giữ giá trị 10 và biến b giữ giá trị 20, thì khi đó:
@@ -239,10 +248,12 @@ Giả sử biến a giữ giá trị 10 và biến b giữ giá trị 20, thì k
 |=|Phép gán – gán toán hạng trái cho toán hạng phải|a=$b sẽ gán giá trị của b cho a|
 |==|Phép bằng – so sánh hai số, nếu cả hai đều giống nhau thì kết quả trả về là true.|[ $a == $b ] sẽ trả về kết quả False.|
 |!=|Phép không cân bằng – so sánh hai số, nếu cả hai số khác nhau thì giá trị trả về là true.|[ $a != $b ] sẽ trả về kết quả True.|
-Nó là rất quan trọng để ghi nhớ rằng tại đây tất cả các sự diễn đạt có điều kiện sẽ được đặt trong hai dấu ngoặc ôm vuông ([]) với một dấu cách trống quanh chúng, ví dụ [$a == $b ] là đúng, và [$a==$b] là không đúng.
 
-Tất cả các toán tử số học được thực hiện sử dụng các số nguyên dài.
-1. # **Các toán tử quan hệ trong Unix/Linux**
+*Nó là rất quan trọng để ghi nhớ rằng tại đây tất cả các sự diễn đạt có điều kiện sẽ được đặt trong hai dấu ngoặc ôm vuông ([]) với một dấu cách trống quanh chúng, ví dụ [$a == $b ] là đúng, và [$a==$b] là không đúng.
+
+Tất cả các toán tử số học được thực hiện sử dụng các số nguyên dài.*
+
+11. # **Các toán tử quan hệ trong Unix/Linux**
 Bourne shell hỗ trợ các toán tử quan hệ sau mà là riêng với các giá trị số. Những toán tử này không làm việc cho chuỗi trừ khi giá trị của nó là số.
 
 Ví dụ, các toán tử sau sẽ kiểm tra một quan hệ giữa 10 và 20, cũng là giữa "10" và "20" nhưng không giữa "ten" và "twenty'.
@@ -259,8 +270,10 @@ Giả sử biến a giữ giá trị 10 và biến b giữ giá trị 20 thì kh
 |-lt|Kiểm tra nếu giá trị của toán hạng trái nhỏ hơn giá trị của toán hạng phải, nếu đúng thì điều kiện trở nên đúng.|[ $a -lt $b ] là đúng.|
 |-ge|Kiểm tra nếu giá trị của toán hạng trái lớn hơn hoặc bằng giá trị của toán hạng phải, nếu đúng thì điều kiện trở nên đúng.|[ $a -ge $b ] là không đúng.|
 |-le|Kiểm tra nếu giá trị của toán hạng trái nhỏ hơn hoặc bằng giá trị của toán hạng phải, nếu đúng thì điều kiện trở nên đúng.|[ $a -le $b ] là đúng.|
-Nó là rất quan trọng để ghi nhớ rằng tại đây tất cả các sự diễn đạt có điều kiện sẽ được đặt trong dấu ngoặc ôm vuông ([]) với dấu cách trống quanh chúng, ví dụ [ $a <= $b ] là đúng và [$a<=$b] là không đúng.
-1. # **Các toán tử logic trong Unix/Linux**
+
+*Nó là rất quan trọng để ghi nhớ rằng tại đây tất cả các sự diễn đạt có điều kiện sẽ được đặt trong dấu ngoặc ôm vuông ([]) với dấu cách trống quanh chúng, ví dụ [ $a <= $b ] là đúng và [$a<=$b] là không đúng.*
+
+12. # **Các toán tử logic trong Unix/Linux**
 Có các toán tử logic sau được hỗ trợ bởi Bourne Shell
 
 Giả sử biến a giữ giá trị 10 và biến b giữ giá trị 20, thì dưới đây là ví dụ sử dụng tất cả các toán tử logic.
@@ -272,7 +285,8 @@ Giả sử biến a giữ giá trị 10 và biến b giữ giá trị 20, thì d
 |!|Phép phủ định. Nếu điều kiện đúng thì giá trị là sai và ngược lại.|[ ! false ] là true.|
 |-o|Phép hoặc. Nếu một trong các toán hạng là đúng thì điều kiện là đúng.|[ $a -lt 20 -o $b -gt 100 ] là true.|
 |-a|Phép và. Nếu cả hai toán hạng đều đúng thì điều kiện là đúng, ngoài ra là sai..|[ $a -lt 20 -a $b -gt 100 ] là false.|
-1. # **Các toán tử chuỗi trong Unix/Linux**
+
+13. # **Các toán tử chuỗi trong Unix/Linux**
 Các toán tử chuỗi sau được hỗ trợ bởi Bourne Shell.
 
 Giả sử biến a giữ giá trị "abc" và biến b giữ giá trị "efg":
@@ -286,7 +300,8 @@ Giả sử biến a giữ giá trị "abc" và biến b giữ giá trị "efg":
 |-z|Kiểm tra nếu cỡ toán hạng chuỗi đã cho là 0. Nếu nó có độ dài là 0 thì nó trả về là đúng.|[ -z $a ] là không đúng.|
 |-n|Kiểm tra nếu cỡ toán hạng chuỗi đã cho là khác 0. Nếu độ dài khác 0 thì nó trả về là đúng.|[ -z $a ] là không đúng.|
 |str|Kiểm tra nếu str không là chuỗi trống. Nếu là chuỗi trống thì nó trả về là sai.|[ $a ] là không sai.|
-1. # **Các toán tử kiểm tra file trong Unix/Linux**
+
+14. # **Các toán tử kiểm tra file trong Unix/Linux**
 Các toán tử sau để kiểm tra các sở hữu cơ bản liên kết với một **file** Unix.
 
 Giả sử một biến file giữ một tên file đang tồn tại là "test" với kích cỡ là 100 byte và được cho phép đọc, viết và chạy.
@@ -310,17 +325,20 @@ Giả sử một biến file giữ một tên file đang tồn tại là "test" 
 |-s file|Kiểm tra nếu file là chạy được, nếu đúng thì điều kiện là đúng.|[ -s $file ] là đúng.|
 |-e file|Kiểm tra nếu file tồn tại, vẫn đúng ngay cả khi file là một thư mục nhưng tồn tại.|[ -e $file ] là đúng.|
 
-1. # **Quyền đặc biệt (Special Permissions)**
+15. # **Quyền đặc biệt (Special Permissions)**
 
 |MODE|MÔ TẢ|
 | :- | :- |
 |**Sticky bit**|Được sử dụng cho các thư mục chia sẻ, mục đích là ngăn chặn việc người dùng này xóa file của người dùng kia. Chỉ duy nhất owner file (và root) mới có quyền rename hay xóa các file, thư mục khi nó đã được set sticky bit. sticky bit được môt tả bằng chữ cái “t” ở dòng cuối cùng của hiển thị permission.|
 |**SUID**|SUID hay Set user ID, được sử dụng trên các file thực thi (executable files) để cho phép việc thực thi được thực hiện dưới owner của file thay vì thực hiện như user đang loggin trong hệ thống.SUID cũng có thể được sử dụng để thay đổi ownership của files được tạo hoặc di chuyển nó đến một thư mục mà owner của nó sẽ là owner của thư mục chuyển đến thay vì là owner nó được tạo ra.|
 |**SGID**|SGID hay Set group ID, cũng tương tự như SUID, được sử dụng trên các file thực thi (executable files) để cho phép việc thực thi được thực hiện dưới owner group của file thay vì thực hiện như group đang loggin trong hệ thống.SGID cũng có thể được sử dụng để thay đổi ownership group của files được tạo hoặc di chuyển nó đến một thư mục mà owner group của nó sẽ là owner group của thư mục chuyển đến thay vì là group nó được tạo ra.|
+
 #### *a. SUID (Set User ID)*
 SUID (***Set owner User ID up on execution***): *Người thực thi file sẽ được **mượn** quyền hạn của người sở hữu tại thời điểm thực thi.*
+
 #### *b. SGID (Set Group ID)*
 SGID (Set Group ID) Bit: SGID bit rất hữu ích khi bạn phải trao quyền truy cập directory cho một nhóm các users trong 1 group. Khi SGID bit được kích hoạt trên 1 directory, toàn bộ file/directory cấp dưới được tạo bởi bất cứ người dùng nào đều có group permission giống với parent directory.
+
 #### *c. sticky bit*
 *Sticky Bit is mainly used on folders in order to avoid deletion of a folder and it’s content by other users though they having write permissions on the folder contents. If Sticky bit is enabled on a folder, the folder contents are deleted by only owner who created them and the root user. No one else can delete other users data in this folder(Where sticky bit is set). This is a security measure to avoid deletion of critical folders and their content(sub-folders and files), though other users have full permissions.*
 
