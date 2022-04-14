@@ -208,7 +208,7 @@ Dưới đây là bảng một số siêu ký tự phải biết để kết n�
 |\* (Dấu hoa thị):|Đối sánh một hoặc nhiều lần xuất hiện của một ký tự||
 |? (Dấu chấm hỏi):|Khớp một ký tự đơn hoặc một lần xuất hiện mẫu||
 |[ ] (Dấu ngoặc vuông):|Khớp với bất kỳ số, ký hiệu hoặc bảng chữ cái được phân tách bằng dấu gạch nối nào được chỉ định bên trong dấu ngoặc vuông||
-|Ống (|)|Kết nối đầu ra lệnh làm đầu vào cho lệnh khác.|cat / etc / passwd | gốc grep|
+|Ống ("|")|Kết nối đầu ra lệnh làm đầu vào cho lệnh khác.|cat / etc / passwd | gốc grep|
 |Dấu chấm phẩy (;)|Cho phép thực hiện các lệnh tuần tự, lần lượt.|cd / vv; ls -la; chmod + x /tmp/script.php|
 |Ký hiệu và (&)|Chạy các quy trình hoặc lệnh trong nền.|find / -perm -u = s -type f &|
 |Đô la ($)|Mở rộng biểu thức số học và chuyển nó vào shell|echo “tổng số tệp trong thư mục này là: $ (ls | wc -l)”|
