@@ -1,4 +1,4 @@
-1. # **Các file và thư mục trong Unix/Linux**
+ # **1. Các file và thư mục trong Unix/Linux**
 Các lệnh này cho phép bạn tạo các thư mục và điều khiển các file.
 
 |**Lệnh**|**Miêu tả**|
@@ -23,7 +23,7 @@ Các lệnh này cho phép bạn tạo các thư mục và điều khiển các 
 |tail|In một vài dòng cuối của thư mục|
 |touch|Cập nhật truy cập và thời gian chỉnh sửa của một file|
 
-2. # **Thao tác dữ liệu trong Unix/Linux**
+# **2. Thao tác dữ liệu trong Unix/Linux**
 Các nội dung của file có thể dược so sánh và thay đổi với các lệnh sau:
 
 |**Lệnh**|**Miêu tả**|
@@ -53,7 +53,7 @@ Các nội dung của file có thể dược so sánh và thay đổi với các
 |emacs|GNU dự án Emacs|
 |emacs|GNU dự án Emacs|
 
-3. # **Nén file trong Unix/Linux**
+# **3. Nén file trong Unix/Linux**
 Các file có thể được nén để tiết kiệm không gian. Các file bị nén có thể được tạo và thực hành với các lệnh dưới.
 
 |**Lệnh**|**Miêu tả**|
@@ -68,7 +68,7 @@ Các file có thể được nén để tiết kiệm không gian. Các file b�
 |zdiff|So sánh các file bị nén|
 |zmore|Lọc file để quan sát crt của các văn bản bị nén|
 
-4. # **Nhận thông tin trong Unix/Linux**
+# **4. Nhận thông tin trong Unix/Linux**
 Các tài liệu tra cứu và các sổ tay Unix đa dạng có sẵn trên mạng trực tuyến. Các lệnh shell sau sẽ cung cấp thông tin cho bạn:
 
 |**Lệnh**|**Miêu tả**|
@@ -79,7 +79,7 @@ Các tài liệu tra cứu và các sổ tay Unix đa dạng có sẵn trên m�
 |whatis|Tìm kiếm dữ liệu whatis cho các từ đầy đủ.|
 |yelp|Bộ thẩm tra sự giúp đỡ GNOME|
 
-5. # **Giao tiếp mạng hệ thống trong Unix/Linux**
+# **5. Giao tiếp mạng hệ thống trong Unix/Linux**
 Các lệnh sau được sử dụng để gửi và nhận các file từ một host nội bộ tới một host điều khiển từ xa trên Thế giới.
 
 |**Lệnh**|**Miêu tả**|
@@ -94,9 +94,9 @@ Các lệnh sau được sử dụng để gửi và nhận các file từ một
 |scp|Bảo an shell từ việc sao chép file từ xa|
 |sftp|Bảo an shell từ gửi file tới chương trình|
 
-*Một trong số các lệnh trên có thể bị hạn chế tại máy tính của bạn vì các lý do bảo mật.*
+Một trong số các lệnh trên có thể bị hạn chế tại máy tính của bạn vì các lý do bảo mật.
 
-6. # **Các thông báo giữa các người sử dụng trong Unix/Linux**
+# **6. Các thông báo giữa các người sử dụng trong Unix/Linux**
 Hệ thống Unix hỗ trợ các thông báo hiển thị trên màn hình tới người sử dụng khác và gửi mail tự động trên toàn Thế giới.
 
 |**Lệnh**|**Miêu tả**|
@@ -109,7 +109,7 @@ Hệ thống Unix hỗ trợ các thông báo hiển thị trên màn hình tớ
 |talk|Nói chuyện với người sử dụng khác|
 |write|Ghi thông báo tới người sử dụng khác|
 
-7. # **Các chương trình tiện ích trong Unix/Linux**
+# **7. Các chương trình tiện ích trong Unix/Linux**
 Bảng dưới là các công cụ và ngôn ngữ mà có sẵn dựa trên những gì bạn cài đặt trên hệ thống Unix của bạn:
 
 |**Lệnh**|**Miêu tả**|
@@ -140,7 +140,7 @@ Bảng dưới là các công cụ và ngôn ngữ mà có sẵn dựa trên nh�
 |sqlldr|Chạy bộ tải dữ liệu Oracle SQL|
 |mysql|Chạy bộ phiên dịch mysql SQL|
 
-8. # **Các lệnh hỗn hợp trong Unix/Linux**
+# **8. Các lệnh hỗn hợp trong Unix/Linux**
 Dưới đây là các lệnh và thông tin thay đổi về hệ thống:
 
 |**Lệnh**|**Miêu tả**|
@@ -215,8 +215,9 @@ Dưới đây là bảng một số siêu ký tự phải biết để kết n�
 |Chuyển hướng rỗng (2>)|Hướng thông báo lỗi chuẩn đến tệp / dev / null|your\_command 2> / dev / null|
 |Circumflex (^)|Khớp với bất kỳ mẫu nào bắt đầu bằng biểu thức theo sau là ^|cd / etc / ssh; ls | grep ^ s|
 
-9. # **Stdin – Stdout – Stderr và pipes trong shell script**
-a. **Stdin – Stdout – Stderr và pipes**
+# **9. Stdin – Stdout – Stderr và pipes trong shell script**
+
+**a. Stdin – Stdout – Stderr và pipes**
 
 Bash shell trong Linux có 3 dòng dữ liệu (stream) cơ bản đó là **stdin (0)**,**stdout (1)** và **stderr (2)**.
 
@@ -224,14 +225,15 @@ Bash shell trong Linux có 3 dòng dữ liệu (stream) cơ bản đó là **st
 - **stdout (1)**: Hiển thị **kết quả** các lệnh lên terminal (hoặc màn hình) cho chúng ta thấy.
 - **stderr (2)**: Hiển thị ra các **lỗi** trong quá trình thực hiện một lệnh hoặc một công việc nào đó.
 - **pipes** trong Linux được ký hiệu là dấu gạch đứng “**|**“. Đường ống dẫn này cho phép chúng ta lấy kết quả của lệnh phía trước nó làm input cho lệnh phía sau nó
-b. **Một số ký hiệu dùng để chuyển hướng input/output**
+
+**b. Một số ký hiệu dùng để chuyển hướng input/output**
 - < file : có nghĩa là mở một tệp tin đọc vào thay cho stdin.
 - << token : sử dụng dòng dữ liệu nhập hiện tại cho stdin cho đến khi gặp mã nhận dạng (token).
 - > file : có nghĩa là ở một tệp tin để ghi, ghi đè nếu nó đã có dữ liệu, tệp tin này nhận dữ liệu từ stdout.
 - >> file : cũng giống như trên nhưng dữ liệu sẽ được nối thêm vào chứ không ghi đè lên.
 - n>&m : có nghĩa là chuyển hướng FD n đặt vào FD m. Ví dụ, 2>&1 nghĩa là sẽ dùng để chuyển hướng stderr sang stdout.
 
-10. # **Các toán tử số học trong [Unix/Linux**](https://quantrimang.com/unix-va-linux "Tìm hiểu Unix và Linux")**
+# **10. Các toán tử số học trong [Unix/Linux**](https://quantrimang.com/unix-va-linux "Tìm hiểu Unix và Linux")**
 Các toán tử số học sau được hỗ trợ bởi Bourne shell.
 
 Giả sử biến a giữ giá trị 10 và biến b giữ giá trị 20, thì khi đó:
@@ -246,14 +248,14 @@ Giả sử biến a giữ giá trị 10 và biến b giữ giá trị 20, thì k
 |/|Phép chia – chia giá trị bên phải cho giá trị bên trái|`expr $b / $a` kết quả là 2|
 |%|Lấy số dư – lấy phần còn lại sau khi đã chia giá trị trái cho giá trị bên phải|`expr $b % $a` kết quả là 0|
 |=|Phép gán – gán toán hạng trái cho toán hạng phải|a=$b sẽ gán giá trị của b cho a|
-|==|Phép bằng – so sánh hai số, nếu cả hai đều giống nhau thì kết quả trả về là true.|[ $a == $b ] sẽ trả về kết quả False.|
-|!=|Phép không cân bằng – so sánh hai số, nếu cả hai số khác nhau thì giá trị trả về là true.|[ $a != $b ] sẽ trả về kết quả True.|
+|==|Phép bằng – so sánh hai số, nếu cả hai đều giống nhau thì kết quả trả về là true.|`[ $a == $b ]` sẽ trả về kết quả False.|
+|!=|Phép không cân bằng – so sánh hai số, nếu cả hai số khác nhau thì giá trị trả về là true.|`[ $a != $b ]` sẽ trả về kết quả True.|
 
-*Nó là rất quan trọng để ghi nhớ rằng tại đây tất cả các sự diễn đạt có điều kiện sẽ được đặt trong hai dấu ngoặc ôm vuông ([]) với một dấu cách trống quanh chúng, ví dụ [$a == $b ] là đúng, và [$a==$b] là không đúng.
+*Nó là rất quan trọng để ghi nhớ rằng tại đây tất cả các sự diễn đạt có điều kiện sẽ được đặt trong hai dấu ngoặc ôm vuông ([ ]) với một dấu cách trống quanh chúng, ví dụ `[$a == $b ]` là đúng, và `[$a==$b]` là không đúng.
 
 Tất cả các toán tử số học được thực hiện sử dụng các số nguyên dài.*
 
-11. # **Các toán tử quan hệ trong Unix/Linux**
+# **11. Các toán tử quan hệ trong Unix/Linux**
 Bourne shell hỗ trợ các toán tử quan hệ sau mà là riêng với các giá trị số. Những toán tử này không làm việc cho chuỗi trừ khi giá trị của nó là số.
 
 Ví dụ, các toán tử sau sẽ kiểm tra một quan hệ giữa 10 và 20, cũng là giữa "10" và "20" nhưng không giữa "ten" và "twenty'.
@@ -264,16 +266,16 @@ Giả sử biến a giữ giá trị 10 và biến b giữ giá trị 20 thì kh
 
 |**Toán tử**|**Miêu tả**|**Ví dụ**|
 | :- | :- | :- |
-|-eq|Kiểm tra giá trị của hai toán hạng là cân bằng hoặc không, nếu có thì điều kiện trở lên đúng.|[ $a -eq $b ] là không đúng.|
-|-ne|Kiểm tra giá trị của hai toán hạng là cân bằng hoặc không, nếu không cân bằng thì điều kiện trở lên đúng.|[ $a -ne $b ] là đúng.|
-|-gt|Kiểm tra nếu giá trị của toán hạng trái lớn hơn giá trị của toán hạng phải, nếu đúng thì điều kiện trở nên đúng.|[ $a -gt $b ] là không đúng.|
-|-lt|Kiểm tra nếu giá trị của toán hạng trái nhỏ hơn giá trị của toán hạng phải, nếu đúng thì điều kiện trở nên đúng.|[ $a -lt $b ] là đúng.|
-|-ge|Kiểm tra nếu giá trị của toán hạng trái lớn hơn hoặc bằng giá trị của toán hạng phải, nếu đúng thì điều kiện trở nên đúng.|[ $a -ge $b ] là không đúng.|
-|-le|Kiểm tra nếu giá trị của toán hạng trái nhỏ hơn hoặc bằng giá trị của toán hạng phải, nếu đúng thì điều kiện trở nên đúng.|[ $a -le $b ] là đúng.|
+|-eq|Kiểm tra giá trị của hai toán hạng là cân bằng hoặc không, nếu có thì điều kiện trở lên đúng.|`[ $a -eq $b ]` là không đúng.|
+|-ne|Kiểm tra giá trị của hai toán hạng là cân bằng hoặc không, nếu không cân bằng thì điều kiện trở lên đúng.|`[ $a -ne $b ]` là đúng.|
+|-gt|Kiểm tra nếu giá trị của toán hạng trái lớn hơn giá trị của toán hạng phải, nếu đúng thì điều kiện trở nên đúng.|`[ $a -gt $b ]` là không đúng.|
+|-lt|Kiểm tra nếu giá trị của toán hạng trái nhỏ hơn giá trị của toán hạng phải, nếu đúng thì điều kiện trở nên đúng.|`[ $a -lt $b ]`là đúng.|
+|-ge|Kiểm tra nếu giá trị của toán hạng trái lớn hơn hoặc bằng giá trị của toán hạng phải, nếu đúng thì điều kiện trở nên đúng.|`[ $a -ge $b ]` là không đúng.|
+|-le|Kiểm tra nếu giá trị của toán hạng trái nhỏ hơn hoặc bằng giá trị của toán hạng phải, nếu đúng thì điều kiện trở nên đúng.|`[ $a -le $b ]` là đúng.|
 
 *Nó là rất quan trọng để ghi nhớ rằng tại đây tất cả các sự diễn đạt có điều kiện sẽ được đặt trong dấu ngoặc ôm vuông ([]) với dấu cách trống quanh chúng, ví dụ [ $a <= $b ] là đúng và [$a<=$b] là không đúng.*
 
-12. # **Các toán tử logic trong Unix/Linux**
+# **12. Các toán tử logic trong Unix/Linux**
 Có các toán tử logic sau được hỗ trợ bởi Bourne Shell
 
 Giả sử biến a giữ giá trị 10 và biến b giữ giá trị 20, thì dưới đây là ví dụ sử dụng tất cả các toán tử logic.
@@ -282,11 +284,11 @@ Giả sử biến a giữ giá trị 10 và biến b giữ giá trị 20, thì d
 
 |**Toán tử**|**Miêu tả**|**Ví dụ**|
 | :- | :- | :- |
-|!|Phép phủ định. Nếu điều kiện đúng thì giá trị là sai và ngược lại.|[ ! false ] là true.|
-|-o|Phép hoặc. Nếu một trong các toán hạng là đúng thì điều kiện là đúng.|[ $a -lt 20 -o $b -gt 100 ] là true.|
-|-a|Phép và. Nếu cả hai toán hạng đều đúng thì điều kiện là đúng, ngoài ra là sai..|[ $a -lt 20 -a $b -gt 100 ] là false.|
+|!|Phép phủ định. Nếu điều kiện đúng thì giá trị là sai và ngược lại.|`[ ! false ]` là true.|
+|-o|Phép hoặc. Nếu một trong các toán hạng là đúng thì điều kiện là đúng.|`[ $a -lt 20 -o $b -gt 100 ]` là true.|
+|-a|Phép và. Nếu cả hai toán hạng đều đúng thì điều kiện là đúng, ngoài ra là sai..|`[ $a -lt 20 -a $b -gt 100 ]` là false.|
 
-13. # **Các toán tử chuỗi trong Unix/Linux**
+# **13. Các toán tử chuỗi trong Unix/Linux**
 Các toán tử chuỗi sau được hỗ trợ bởi Bourne Shell.
 
 Giả sử biến a giữ giá trị "abc" và biến b giữ giá trị "efg":
@@ -295,13 +297,13 @@ Giả sử biến a giữ giá trị "abc" và biến b giữ giá trị "efg":
 
 |**Toán tử**|**Miêu tả**|**Ví dụ**|
 | :- | :- | :- |
-|=|Kiểm tra nếu giá trị của hai toán hạng là cân bằng hoặc không, nếu có thì điều kiện là đúng.|[ $a = $b ] là không đúng.|
-|!=|Kiểm tra nếu giá trị của hai toán hạng có cân bằng hoặc không, nếu không cân bằng thì điều kiện là đúng.|[ $a != $b ] là đúng.|
-|-z|Kiểm tra nếu cỡ toán hạng chuỗi đã cho là 0. Nếu nó có độ dài là 0 thì nó trả về là đúng.|[ -z $a ] là không đúng.|
-|-n|Kiểm tra nếu cỡ toán hạng chuỗi đã cho là khác 0. Nếu độ dài khác 0 thì nó trả về là đúng.|[ -z $a ] là không đúng.|
-|str|Kiểm tra nếu str không là chuỗi trống. Nếu là chuỗi trống thì nó trả về là sai.|[ $a ] là không sai.|
+|=|Kiểm tra nếu giá trị của hai toán hạng là cân bằng hoặc không, nếu có thì điều kiện là đúng.|`[ $a = $b ]` là không đúng.|
+|!=|Kiểm tra nếu giá trị của hai toán hạng có cân bằng hoặc không, nếu không cân bằng thì điều kiện là đúng.|`[ $a != $b ]` là đúng.|
+|-z|Kiểm tra nếu cỡ toán hạng chuỗi đã cho là 0. Nếu nó có độ dài là 0 thì nó trả về là đúng.|`[ -z $a ]` là không đúng.|
+|-n|Kiểm tra nếu cỡ toán hạng chuỗi đã cho là khác 0. Nếu độ dài khác 0 thì nó trả về là đúng.|`[ -z $a ]` là không đúng.|
+|str|Kiểm tra nếu str không là chuỗi trống. Nếu là chuỗi trống thì nó trả về là sai.|`[ $a ]` là không sai.|
 
-14. # **Các toán tử kiểm tra file trong Unix/Linux**
+# **14. Các toán tử kiểm tra file trong Unix/Linux**
 Các toán tử sau để kiểm tra các sở hữu cơ bản liên kết với một **file** Unix.
 
 Giả sử một biến file giữ một tên file đang tồn tại là "test" với kích cỡ là 100 byte và được cho phép đọc, viết và chạy.
@@ -310,22 +312,22 @@ Giả sử một biến file giữ một tên file đang tồn tại là "test" 
 
 |**Toán tử**|**Miêu tả**|**Ví dụ**|
 | :- | :- | :- |
-|-b file|Kiểm tra nếu file là một file khối đặc biệt, nếu đúng thì điều kiện là đúng.|[ -b $file ] là sai.|
-|-c file|Kiểm tra nếu file là một file ký tự đặc biệt, nếu đúng thì điều kiện là đúng.|[ -c $file ] là sai.|
-|-d file|Kiểm tra nếu file là một thư mục, nếu đúng thì điều kiện là đúng.|[ -d $file ] là không đúng.|
-|-f file|Kiểm tra nếu file là file thường như trái ngược với thư mục hoặc là file đặc biệt, nếu đúng thì điều kiện là đúng.|[ -f $file ] là đúng.|
-|-g file|Kiểm tra nếu file có ID nhóm thiết lập (SGID), nếu đúng thì điều kiện là đúng.|[ -g $file ] là sai.|
-|-k file|Kiểm tra nếu file có thiết lập sticky bit, nếu đúng thì điều kiện là đúng.|[ -k $file ] là sai.|
-|-p file|Kiểm tra nếu file là một pipe được đặt tên, nếu đúng thì điều kiện là đúng.|[ -p $file ] là sai.|
-|-t file|Kiểm tra nếu ký hiệu để nhận diện file được mở và liên kết với một terminal, nếu đúng thì điều kiện là đúng.|[ -t $file ] là sai.|
-|-u file|Kiểm tra nếu file có SUID, nếu đúng thì điều kiện là đúng.|[ -u $file ] là sai.|
-|-r file|Kiểm tra nếu file là đọc được, nếu đúng thì điều kiện là đúng.|[ -r $file ] là đúng.|
-|-w file|Kiểm tra nếu file là viết được, nếu đúng thì điều kiện là đúng.|[ -w $file ] là đúng.|
-|-x file|Kiểm tra nếu file là chạy được, nếu đúng thì điều kiện là đúng.|[ -x $file ] là đúng.|
-|-s file|Kiểm tra nếu file là chạy được, nếu đúng thì điều kiện là đúng.|[ -s $file ] là đúng.|
-|-e file|Kiểm tra nếu file tồn tại, vẫn đúng ngay cả khi file là một thư mục nhưng tồn tại.|[ -e $file ] là đúng.|
+|-b file|Kiểm tra nếu file là một file khối đặc biệt, nếu đúng thì điều kiện là đúng.|`[ -b $file ]` là sai.|
+|-c file|Kiểm tra nếu file là một file ký tự đặc biệt, nếu đúng thì điều kiện là đúng.|`[ -c $file ]`là sai.|
+|-d file|Kiểm tra nếu file là một thư mục, nếu đúng thì điều kiện là đúng.|`[ -d $file ]` là không đúng.|
+|-f file|Kiểm tra nếu file là file thường như trái ngược với thư mục hoặc là file đặc biệt, nếu đúng thì điều kiện là đúng.|`[ -f $file ]` là đúng.|
+|-g file|Kiểm tra nếu file có ID nhóm thiết lập (SGID), nếu đúng thì điều kiện là đúng.|`[ -g $file ]` là sai.|
+|-k file|Kiểm tra nếu file có thiết lập sticky bit, nếu đúng thì điều kiện là đúng.|`[ -k $file ]` là sai.|
+|-p file|Kiểm tra nếu file là một pipe được đặt tên, nếu đúng thì điều kiện là đúng.|`[ -p $file ]` là sai.|
+|-t file|Kiểm tra nếu ký hiệu để nhận diện file được mở và liên kết với một terminal, nếu đúng thì điều kiện là đúng.|`[ -t $file ]` là sai.|
+|-u file|Kiểm tra nếu file có SUID, nếu đúng thì điều kiện là đúng.|`[ -u $file ]` là sai.|
+|-r file|Kiểm tra nếu file là đọc được, nếu đúng thì điều kiện là đúng.|`[ -r $file ]` là đúng.|
+|-w file|Kiểm tra nếu file là viết được, nếu đúng thì điều kiện là đúng.|`[ -w $file ]` là đúng.|
+|-x file|Kiểm tra nếu file là chạy được, nếu đúng thì điều kiện là đúng.|`[ -x $file ]` là đúng.|
+|-s file|Kiểm tra nếu file là chạy được, nếu đúng thì điều kiện là đúng.|`[ -s $file ]` là đúng.|
+|-e file|Kiểm tra nếu file tồn tại, vẫn đúng ngay cả khi file là một thư mục nhưng tồn tại.|`[ -e $file ]` là đúng.|
 
-15. # **Quyền đặc biệt (Special Permissions)**
+# **15. Quyền đặc biệt (Special Permissions)**
 
 |MODE|MÔ TẢ|
 | :- | :- |
@@ -350,10 +352,11 @@ Dưới đây, chúng ta có bảng tổng kết cách **chmod** SUID, SGID, S
 
 |PERMISSION|SYMBOLIC MODE|NUMBERIC MODE|
 | :- | :- | :- |
-|**sticky Bit**|chmod +t file\_name|chmod 1xxx file\_name|
-|**SUID Bit**|chmod u+s file\_name|chmod 4xxx file\_name|
-|**SGID Bit**|chmod g+s file\_name|chmod 2xxx file\_name|
-**Tổng kết**
+|**sticky Bit**|`chmod +t file\_name`|`chmod 1xxx file\_name`|
+|**SUID Bit**|`chmod u+s file\_name`|`chmod 4xxx file\_name`|
+|**SGID Bit**|`chmod g+s file\_name`|`chmod 2xxx file\_name`|
+
+#### *Tổng kết*
 
 Linux là một môi trường đa người dùng đồng thời, vì vậy, việc giới hạn quyền và chia sẻ tài nguyên là một việc hết sức cần thiết nhằm đảm bảo tính an toàn nhưng vẫn linh hoạt của hệ thống. **SUID**, **SGID**, **Sticky bit** sẽ giúp đảm bảo những điều nêu trên một cách rõ ràng và chặt chẽ hơn:
 
