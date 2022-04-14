@@ -227,11 +227,11 @@ Bash shell trong Linux có 3 dòng dữ liệu (stream) cơ bản đó là **st
 - **pipes** trong Linux được ký hiệu là dấu gạch đứng “**|**“. Đường ống dẫn này cho phép chúng ta lấy kết quả của lệnh phía trước nó làm input cho lệnh phía sau nó
 
 **b. Một số ký hiệu dùng để chuyển hướng input/output**
-- < file : có nghĩa là mở một tệp tin đọc vào thay cho stdin.
-- << token : sử dụng dòng dữ liệu nhập hiện tại cho stdin cho đến khi gặp mã nhận dạng (token).
-- > file : có nghĩa là ở một tệp tin để ghi, ghi đè nếu nó đã có dữ liệu, tệp tin này nhận dữ liệu từ stdout.
-- >> file : cũng giống như trên nhưng dữ liệu sẽ được nối thêm vào chứ không ghi đè lên.
-- n>&m : có nghĩa là chuyển hướng FD n đặt vào FD m. Ví dụ, 2>&1 nghĩa là sẽ dùng để chuyển hướng stderr sang stdout.
+- "<" file : có nghĩa là mở một tệp tin đọc vào thay cho stdin.
+- "<<" token : sử dụng dòng dữ liệu nhập hiện tại cho stdin cho đến khi gặp mã nhận dạng (token).
+- ">" file : có nghĩa là ở một tệp tin để ghi, ghi đè nếu nó đã có dữ liệu, tệp tin này nhận dữ liệu từ stdout.
+- ">>" file : cũng giống như trên nhưng dữ liệu sẽ được nối thêm vào chứ không ghi đè lên.
+- "n>&m" : có nghĩa là chuyển hướng FD n đặt vào FD m. Ví dụ, 2>&1 nghĩa là sẽ dùng để chuyển hướng stderr sang stdout.
 
 # **10. Các toán tử số học trong [Unix/Linux**](https://quantrimang.com/unix-va-linux "Tìm hiểu Unix và Linux")**
 Các toán tử số học sau được hỗ trợ bởi Bourne shell.
@@ -251,9 +251,9 @@ Giả sử biến a giữ giá trị 10 và biến b giữ giá trị 20, thì k
 |==|Phép bằng – so sánh hai số, nếu cả hai đều giống nhau thì kết quả trả về là true.|`[ $a == $b ]` sẽ trả về kết quả False.|
 |!=|Phép không cân bằng – so sánh hai số, nếu cả hai số khác nhau thì giá trị trả về là true.|`[ $a != $b ]` sẽ trả về kết quả True.|
 
-*Nó là rất quan trọng để ghi nhớ rằng tại đây tất cả các sự diễn đạt có điều kiện sẽ được đặt trong hai dấu ngoặc ôm vuông ([ ]) với một dấu cách trống quanh chúng, ví dụ `[$a == $b ]` là đúng, và `[$a==$b]` là không đúng.
+Nó là rất quan trọng để ghi nhớ rằng tại đây tất cả các sự diễn đạt có điều kiện sẽ được đặt trong hai dấu ngoặc ôm vuông ([ ]) với một dấu cách trống quanh chúng, ví dụ `[$a == $b ]` là đúng, và `[$a==$b]` là không đúng.
 
-Tất cả các toán tử số học được thực hiện sử dụng các số nguyên dài.*
+Tất cả các toán tử số học được thực hiện sử dụng các số nguyên dài.
 
 # **11. Các toán tử quan hệ trong Unix/Linux**
 Bourne shell hỗ trợ các toán tử quan hệ sau mà là riêng với các giá trị số. Những toán tử này không làm việc cho chuỗi trừ khi giá trị của nó là số.
